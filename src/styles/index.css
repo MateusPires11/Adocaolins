@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-    width: 556.6px;
+    width: 100%;
     font-family: TT Trailers Trial Black;
     font-size: 66px;
 }
@@ -32,8 +32,8 @@ header {
     width: 100%;
     background-color: #1f2937;
 
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
 
     padding: 0 80px;
@@ -48,7 +48,8 @@ header {
     transform: scale(1.05);
 }
 nav {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     gap: 40px;
 }
 
@@ -66,42 +67,98 @@ nav a:hover{
 }
 
 .hero {
-    display: flex;
+    display: grid;
+    grid-template-columns: 531.8px 556px;
     align-items: center;
     justify-content: center;
-    gap: 24px;
-
-    padding: 40px 40px 40px 0;
-    margin: 50px 50px;
+    gap: 40px;
+    padding: 40px;
+    margin: 30px;
+    height: 80%;
 }
 
 .hero-img {
+    
     width: 531.8px;
     border-radius: 65px;
+
+    
 }
 
 
 .text-hero {
 
-    height: 390px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    align-items: center;
+    gap: 30px;
 
 }
 
 .btn {
-    align-self: flex-end;
+    justify-self: start;
+    
     background: #10B981;
     color: white;
     text-decoration: none;
+    
     padding: 16px 28px;
     border-radius: 999px;
     width: 296.5px;
+    
     font-size: 15.9px;
     font-weight: bold;
+    
     cursor: pointer;
 }
 .btn:hover{
     transform: scale(1.05);
     opacity: 0.8;
 }
+
+
+
+/*----------------------------------------------segunda section-----------------------------------------------------------------------------------------------------*/
+
+
+.adocao {
+    display: grid;
+    grid-template-columns: 548.98px 548.98px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.petsad a {
+    display: grid;
+    justify-items: center; 
+    gap: 12px;
+    width: 100%;           
+    text-decoration: none;
+    color: #1f2937;
+}
+
+.petsad h1 {
+    text-align:center;
+}
+
+.petsad img{
+    border-radius: 20px;
+    border:4px solid #1f2937;
+}
+
+
+.petsad:hover {
+    transform: scale(1.03);
+    transition: transform .2s ease;
+}
+
+/*----------------------------------------terceira section----------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
