@@ -38,6 +38,18 @@ header {
 
     padding: 0 80px;
 }
+section {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 0;
+    
+}
+
+
 
 .logo {
     margin: 0;
@@ -68,7 +80,7 @@ nav a:hover{
 
 .hero {
     display: grid;
-    grid-template-columns: 531.8px 556px;
+    grid-template-columns: 50% 50%;
     align-items: center;
     justify-content: center;
     gap: 40px;
@@ -122,18 +134,23 @@ nav a:hover{
 
 .adocao {
     display: grid;
-    grid-template-columns: 548.98px 548.98px;
+    grid-template-columns: 50% 50%;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
 }
 
-.petsad a {
+.petsad{
     display: grid;
     justify-items: center; 
-    gap: 12px;
-    width: 100%;           
+    align-items: center;
+    
+    gap: 10px;
+}
+
+.petsad a{
+    cursor: pointer;
     text-decoration: none;
-    color: #1f2937;
+    color:#1f2937;
 }
 
 .petsad h1 {
@@ -146,13 +163,44 @@ nav a:hover{
 }
 
 
-.petsad:hover {
+.petsad a:hover {
     transform: scale(1.03);
     transition: transform .2s ease;
 }
 
 /*----------------------------------------terceira section----------------------------------------------------------------- */
+    
+.text-section{
+    display: grid;
+    grid-template-columns: 50vh 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.text  {
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    margin-top: 20px;
+}
+.text h1{
+    display: grid;
+    font-size: 50px;
+    
+}
+.text p{
+    font-size: 21px;
+}
 
+.imghug{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+    width: 593px;
+}
+.imgmenina{
+    width: 100%;
+    border-radius: 20px;
+}
 
 
 
