@@ -11,17 +11,16 @@
 
 }
 
-@font-face{
+@font-face {
     font-family: TT-Norms-Std-Trial-Condensed-Bold;
     src: url(../fonts/tt-norms-std-condensed-font-family/TT-Norms-Std-Trial-Condensed-Bold.otf) format("opentype");
 }
 
 
-
-
 body {
     background-color: #f0faf6;
 }
+
 h1 {
     width: 556.6px;
     font-family: TT Trailers Trial Black;
@@ -45,7 +44,9 @@ header {
     width: 89.7px;
     height: 89.7px;
 }
-
+.logo:hover{
+    transform: scale(1.05);
+}
 nav {
     display: flex;
     gap: 40px;
@@ -59,7 +60,10 @@ nav a {
     font-weight: 500;
 }
 
-
+nav a:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
 
 .hero {
     display: flex;
@@ -72,7 +76,7 @@ nav a {
 }
 
 .hero-img {
-    width: 450px;
+    width: 531.8px;
     border-radius: 65px;
 }
 
@@ -92,7 +96,12 @@ nav a {
     text-decoration: none;
     padding: 16px 28px;
     border-radius: 999px;
+    width: 296.5px;
+    font-size: 15.9px;
     font-weight: bold;
-
-
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
 }
