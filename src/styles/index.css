@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: TT Trailers Trial Black;
+    src: url(../fonts/tt_trailers/TT\ Trailers\ Trial\ Black.ttf) format("truetype");
+
+}
+
+@font-face{
+    font-family: TT-Norms-Std-Trial-Condensed-Bold;
+    src: url(../fonts/tt-norms-std-condensed-font-family/TT-Norms-Std-Trial-Condensed-Bold.otf) format("opentype");
+}
+
+
+
+
+body {
+    background-color: #f0faf6;
+}
+h1 {
+    width: 556.6px;
+    font-family: TT Trailers Trial Black;
+    font-size: 66px;
+}
+
+header {
+    height: 108.2px;
+    width: 100%;
+    background-color: #1f2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 80px;
+}
+
+.logo {
+    margin: 0;
+    width: 89.7px;
+    height: 89.7px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    font-family: TT-Norms-Std-Trial-Condensed-Bold;
+    color: #F9FAFB;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    padding: 40px 40px 40px 0;
+    margin: 50px 50px;
+}
+
+.hero-img {
+    width: 450px;
+    border-radius: 65px;
+}
+
+
+.text-hero {
+
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn {
+    align-self: flex-end;
+    background: #10B981;
+    color: white;
+    text-decoration: none;
+    padding: 16px 28px;
+    border-radius: 999px;
+    font-weight: bold;
+
+
+}
