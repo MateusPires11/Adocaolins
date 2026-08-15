@@ -162,6 +162,9 @@ nav a:hover{
     border:4px solid #1f2937;
 }
 
+.dog{
+    justify-self: baseline;
+}
 
 .petsad a:hover {
     transform: scale(1.03);
@@ -172,7 +175,7 @@ nav a:hover{
     
 .text-section{
     display: grid;
-    grid-template-columns: 50vh 50vh;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
 }
@@ -201,11 +204,58 @@ nav a:hover{
     width: 100%;
     border-radius: 20px;
 }
+.insta{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #1f2937; 
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.insta i{
+    color: #E1306C;
+    font-size: 40px;
+}
+
+.insta:hover{
+    transform: scale(1.01);
+    opacity: .8;
+}
 
 
+.contato{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: start; 
+}
+.textcontato{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    gap: 16px;
+
+}
+
+.Imagecontato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Imagecontato img{
+    width: 460px;
+    border-radius: 20px;
+}
+/*-------------------------------------footer------------------------*/
+
+.footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #1f2937;
 
 
-
+}
 
 
 
