@@ -81,19 +81,15 @@ nav a:hover{
 .hero {
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding: 40px;
-    margin: 30px;
-    height: 80%;
+    align-items: center;
 }
 
 .hero-img {
     
     width: 531.8px;
     border-radius: 65px;
-
+    justify-self: baseline;
     
 }
 
@@ -165,6 +161,10 @@ nav a:hover{
 .dog{
     justify-self: baseline;
 }
+.cat{
+
+    justify-self: end;
+}
 
 .petsad a:hover {
     transform: scale(1.03);
@@ -195,7 +195,7 @@ nav a:hover{
 
 .imghug{
     display: grid;
-    justify-content: center;
+    justify-self: end;
     align-items: center;
    
     width: 593px;
@@ -203,6 +203,7 @@ nav a:hover{
 .imgmenina{
     width: 100%;
     border-radius: 20px;
+    justify-self: end;
 }
 .insta{
     display: flex;
@@ -240,11 +241,12 @@ nav a:hover{
 
 .Imagecontato{
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-self: end;
 }
 .Imagecontato img{
-    width: 460px;
+    justify-self: end;
+    width: 100%;
     border-radius: 20px;
 }
 /*-------------------------------------footer------------------------*/
