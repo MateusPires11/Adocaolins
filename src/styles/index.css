@@ -258,7 +258,39 @@ nav a:hover{
 
 
 }
+.card-doacao {
+  
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Impact', 'Arial Black', sans-serif; 
+    color: #333333;
+}
 
+.card-doacao h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
 
+.card-doacao p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
 
+.card-doacao .destaque {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.base{
+    background-color: #1f2937;
+}
+.colar{
+    color: white;
+}
 
