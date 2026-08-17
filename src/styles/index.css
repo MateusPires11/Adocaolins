@@ -289,8 +289,11 @@ nav a:hover{
 }
 .base{
     background-color: #1f2937;
+   
 }
 .colar{
     color: white;
 }
-
+.top{
+       background-color: #1f2937;
+}
